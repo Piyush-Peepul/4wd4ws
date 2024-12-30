@@ -1,0 +1,26 @@
+# Ignore build and install directories
+/build/
+/install/
+/log/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore other common files
+*.swp
+*.bak
+*.tmp
+*.orig
+*.DS_Store

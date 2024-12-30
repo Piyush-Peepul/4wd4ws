@@ -1,0 +1,6 @@
+calibrate_servo_offsets:
+  ros__parameters:
+    # ports by-path aren't working for some reason.
+    # TODO: change to ports by-id
+    port: "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5876043853-if00"
+    baud_rate: 1000000

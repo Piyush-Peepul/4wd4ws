@@ -1,0 +1,10 @@
+sw_rsbl_driver:
+  ros__parameters:
+    port: "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5876043853-if00"
+    # array of strings representing names of servos
+    baud_rate: 1000000
+    # array of numbers representing servo motor ids
+    # in following order: [front_left, front_right, rear_left, rear_right]
+    motor_ids: [11, 14, 12, 3]
+    # array of wheel directions, clkwise is +ve
+    motor_directions: ["clkwise", "clkwise", "clkwise", "clkwise"]

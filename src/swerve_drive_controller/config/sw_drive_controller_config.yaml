@@ -1,0 +1,5 @@
+sw_drive_controller:
+  ros__parameters:
+    # values are in meters
+    length: 0.6
+    width: 0.6
